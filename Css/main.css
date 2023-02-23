@@ -1,0 +1,198 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Raleway',sans-serif;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+	background-image: url('../images/bg-desktop.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+}
+.content{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+	background-color: hsl(228, 56%, 26%);
+    padding: 35px 13px 7px 16px;
+    width: 35%;
+    border-top-right-radius: 80px;
+}
+.links > svg{
+    margin-bottom: 15px;
+}
+.links .icon span{
+    display: inline-block;
+    background-color: hsl(229, 57%, 11%);
+    margin-right: 8px;
+    border-radius: 8px;
+}
+.links .icon .icon1{
+    padding: 10px 10px 6px 11px;
+}
+.links .icon .icon2{
+    padding: 10px 10px 5px 10px;
+}
+.links .icon .icon3{
+    padding: 10px 11px 6px 10px;
+}
+.progress{
+	background-color: hsl(228, 56%, 26%);
+	padding: 40px 15px;
+	border-radius: 10px;
+	width: 50%;
+}
+.massege{
+	background-color: #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 110px;
+    position: absolute;
+    right: 26px;
+    top: -4px;
+    border-radius: 10px;
+}
+.massege::after{
+	content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 15px 15px;
+    border-color: transparent #fff transparent transparent;
+    position: absolute;
+    bottom: -12px;
+    right: 0;
+
+}
+.progress .massege p{
+	color: black;
+}
+.progress .massege p span{
+	font-size: 25px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.progress p{
+	font-size: 10px;
+	margin-bottom: 15px;
+	color: hsl(243, 100%, 93%);
+}
+span{
+	display: block;
+}
+.progress .cover{
+	width: 100%;
+    background-color: hsl(229, 57%, 11%);
+    padding: 4px;
+	border-radius: 13px;
+}
+.progress .cover .fill{
+	background: linear-gradient(90deg,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+	width: 70%;
+	border-radius: 12px;
+	padding: 7px;
+	position: relative;
+}
+.progress .cover .fill .point{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+	position: absolute;
+	right: 1.5px;
+	top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
